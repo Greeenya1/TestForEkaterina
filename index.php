@@ -54,7 +54,7 @@ if (validateName() && validateTel()) {
     if (!empty($count)) {
         $green = 1;
         $red = 1;
-        for ($i = 1; $i <= $_POST['count']; $i++) {
+        for ($i = 1; $i <= $count; $i++) {
             $result_green1 = 3 * $green;
             $result_green2 = 7 * $red;
             $result_green = $result_green1 + $result_green2;
